@@ -1,39 +1,53 @@
-**Welcome to your Base44 project** 
+# ♻️ Eco-Oil Save (KitaHack 2026 Submission)
 
-**About**
+A smart, data-driven waste oil management web application designed to track oil disposals, locate recycling centers, and reward sustainable habits. 
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+🌍 **Proudly aligned with UN SDG 12: Responsible Consumption and Production.**
 
-This project contains everything you need to run your app locally.
+---
 
-**Edit the code in your local development environment**
+## ⚡ Project Overview
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+**Transforming waste into rewards seamlessly!**
 
-**Prerequisites:** 
+This application provides a working prototype for users to log their waste oil, find the nearest disposal centers, and earn redeemable points. Built for KitaHack 2026, it integrates modern web technologies with Google's ecosystem to create a scalable environmental solution.
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+---
 
-```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
+## 📁 Tech Stack & KitaHack Requirements
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
-```
+| Category | Technology Used | Purpose |
+|----------|-----------------|---------|
+| **Frontend** | React, Vite, Tailwind CSS | UI/UX development and state management |
+| **Backend / BaaS** | Base44 / Google Firebase | Database, user authentication, and hosting |
+| **Google AI Tech** | **Gemini API** *(Planned/Integrated)* | AI-powered waste oil type recognition & recycling tips |
+| **Google Dev Tech**| **Google Cloud / Firebase** | Cloud infrastructure and data storage |
+| **Impact Target** | **UN SDG 12** | Promoting responsible waste oil disposal |
 
-Run the app: `npm run dev`
+---
 
-**Publish your changes**
+## 📚 Documentation (To-Submit Checklist)
 
-Open [Base44.com](http://Base44.com) and click on Publish.
+- **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** - Tech architecture mapping how the React frontend communicates with Base44/Firebase and Gemini API.
 
-**Docs & Support**
+- **[docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md)** - Implementation details, challenges faced during Lovable/Base44 integration, and our solutions.
+- **[docs/ROADMAP.md](docs/ROADMAP.md)** - Future roadmap: scaling to nationwide recycling centers, advanced AI integration, and real-time impact tracking.
 
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
+---
 
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+## 🚀 Quick Start (Local Development)
+
+To run this prototype locally on your machine:
+
+```bash
+# 1. Clone the repository
+git clone <your-github-repo-url>
+
+# 2. Navigate to the project directory
+cd eco-oil-save
+
+# 3. Install dependencies
+npm install
+
+# 4. Start development server
+npm run dev
