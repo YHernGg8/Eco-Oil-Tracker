@@ -47,17 +47,17 @@
  *
  * The mainPage value must match a key in the PAGES object exactly.
  */
-import Admin from './pages/Admin';
-import AdminCenters from './pages/AdminCenters';
-import AdminDisposals from './pages/AdminDisposals';
-import AdminRewards from './pages/AdminRewards';
-import Centers from './pages/Centers';
-import History from './pages/History';
-import Home from './pages/Home';
-import LogDisposal from './pages/LogDisposal';
-import Profile from './pages/Profile';
-import Rewards from './pages/Rewards';
-import Integrations from './pages/Integrations';
+import Admin from './pages/Admin.jsx';
+import AdminCenters from './pages/AdminCenters.jsx';
+import AdminDisposals from './pages/AdminDisposals.jsx';
+import AdminRewards from './pages/AdminRewards.jsx';
+import Centers from './pages/Centers.jsx';
+import History from './pages/History.jsx';
+import Home from './pages/Home.jsx';
+import LogDisposal from './pages/LogDisposal.jsx';
+import Profile from './pages/Profile.jsx';
+import Rewards from './pages/Rewards.jsx';
+import Integrations from './pages/Integrations.jsx';
 import __Layout from './Layout.jsx';
 
 
